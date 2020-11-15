@@ -166,5 +166,5 @@ def formdata():
 
 
 if __name__ == '__main__': # if file is run as main program
-    app.run(debug=True)
-    # app.run(host="localhost", port=3000, debug=True)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
