@@ -12,6 +12,8 @@ import pandas as pd
 from sqlalchemy import create_engine, types
 import json
 import numpy as np
+import os
+
 
 
 #import all the local functions
