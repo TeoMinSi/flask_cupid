@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="/dist/img/favicon.ico" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MarTechX - Data Analytics Platform</title>
+
+  <script type="text/javascript" src="/dist/js/jquery-3.5.1.min.js"></script>
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+
+  <!-- Select2 -->
+  <link rel="stylesheet" href="../../plugins/select2/css/select2.min.css">
+  <link rel="stylesheet" href="../../plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
+
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+
+
+    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap5.min.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap5.min.js"></script>
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+    <div class="wrapper">
+    
+      <!-- Navbar -->
+      <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+        <!-- Left navbar links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+          </li>
+          <!-- <li class="nav-item d-none d-sm-inline-block">
+            <a href="index3.html" class="nav-link">Home</a>
+          </li> -->
+          <!-- <li class="nav-item d-none d-sm-inline-block">
+            <a href="#" class="nav-link">Contact</a>
+          </li> -->
+        </ul>
+    
+        <!-- SEARCH FORM -->
+        <form class="form-inline ml-3">
+          <div class="input-group input-group-sm">
+            <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+            <div class="input-group-append">
+              <button class="btn btn-navbar" type="submit">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+    
+        <!-- Right navbar links -->
+        <ul class="navbar-nav ml-auto">
+          <!-- Messages Dropdown Menu -->
+          <li class="nav-item dropdown">
+            <a class="nav-link" data-toggle="dropdown" href="#">
+              <i class="far fa-comments"></i>
+              <span class="badge badge-danger navbar-badge">3</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+              <a href="#" class="dropdown-item">
+                <!-- Message Start -->
+                <div class="media">
+                  <!-- <img src="dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle"> -->
+                  <div class="media-body">
+                    <h3 class="dropdown-item-title">
+                      Brad Diesel
+                      <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
+                    </h3>
+                    <p class="text-sm">Call me whenever you can...</p>
+                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                  </div>
+                </div>
+                <!-- Message End -->
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">
+                <!-- Message Start -->
+                <div class="media">
+                  <!-- <img src="dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3"> -->
+                  <div class="media-body">
+                    <h3 class="dropdown-item-title">
+                      John Pierce
+                      <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
+                    </h3>
+                    <p class="text-sm">I got your message bro</p>
+                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                  </div>
+                </div>
+                <!-- Message End -->
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">
+                <!-- Message Start -->
+                <div class="media">
+                  <!-- <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3"> -->
+                  <div class="media-body">
+                    <h3 class="dropdown-item-title">
+                      Nora Silvester
+                      <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
+                    </h3>
+                    <p class="text-sm">The subject goes here</p>
+                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                  </div>
+                </div>
+                <!-- Message End -->
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+            </div>
+          </li>
+          <!-- Notifications Dropdown Menu -->
+          <li class="nav-item dropdown">
+            <a class="nav-link" data-toggle="dropdown" href="#">
+              <i class="far fa-bell"></i>
+              <span class="badge badge-warning navbar-badge">15</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+              <span class="dropdown-item dropdown-header">15 Notifications</span>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">
+                <i class="fas fa-envelope mr-2"></i> 4 new messages
+                <span class="float-right text-muted text-sm">3 mins</span>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">
+                <i class="fas fa-users mr-2"></i> 8 friend requests
+                <span class="float-right text-muted text-sm">12 hours</span>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">
+                <i class="fas fa-file mr-2"></i> 3 new reports
+                <span class="float-right text-muted text-sm">2 days</span>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+              <i class="fas fa-expand-arrows-alt"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+              <i class="fas fa-th-large"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.navbar -->
+    
+      <!-- Main Sidebar Container -->
+      <aside class="main-sidebar sidebar-dark-primary elevation-4" style="background-color:#fff;"> 
+        <!-- Brand Logo -->
+        <a href="/index.html" class="brand-link">
+          <img src="/dist/img/logo2.png" alt="AdminLTE Logo" style="
+          height: 67px;
+          opacity: .8;
+          position: relative;
+          right: -25px;" >
+          <!-- <span class="brand-text font-weight-light">CitiBank</span> -->
+        </a>
+    
+        <!-- Sidebar -->
+        <div class="sidebar">
+    
+          <!-- Sidebar Menu -->
+          <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+            
+             
+              <li class="nav-item">
+                <a href="/index.html" class="nav-link sideMenuPages">
+                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                    <p style="font-weight: bold;">
+                      Customer Dashboard
+                    </p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="/flask/templates/merchants.html" class="nav-link sideMenuPages">
+                  <!-- change icon here-->
+                  <!-- <i class="nav-icon far fa-image"></i> -->
+                  <i class="nav-icon fas fa-users"></i>
+                  <p style="font-weight: bold;">
+                    Merchants Analysis
+                  </p>
+                </a>
+              </li>
+    
+    
+              <li class="nav-item">
+                <a href="/flask/templates/inputData.html" class="nav-link sideMenuPages">
+                  <!-- change icon here-->
+                  <!-- <i class="nav-icon far fa-image"></i> -->
+                  &nbsp;&nbsp;<i class="fab fa-wpforms"></i>
+                  <p style="font-weight: bold;">
+                    &nbsp;&nbsp;&nbsp;Upload Data
+                  </p>
+                </a>
+              </li>
+    
+              <li class="nav-item">
+                <a href="/flask/templates/predictionForm.html" class="nav-link sideMenuPages">
+                  <!-- change icon here-->
+                  <!-- <i class="nav-icon far fa-image"></i> -->
+                  &nbsp;&nbsp;<i class="fab fa-wpforms"></i>
+                  <p style="font-weight: bold;">
+                    &nbsp;&nbsp;&nbsp;Data Prediction Form
+                  </p>
+                </a>
+              </li>
+    
+              <li class="nav-item">
+                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle nav-link">
+                  <i class="nav-icon far fas fa-database"></i>
+                  <p style="font-weight: bold;">
+                    Data Tables
+                  </p>
+                </a>
+                <ul class="collapse list-unstyled  nav show" id="pageSubmenu">
+    
+                  <li class="nav-item">
+                    <a href="/flask/templates/cleanRawDataTable.html" class="nav-link sideMenuPages" style="right:-15px !important;">
+                      <i class="fas fa-table"></i>
+                      <p style="font-size: 12px; font-weight:bold;">
+                        Cleaned Raw Data Table
+                      </p>
+                    </a>
+                  </li>
+    
+                    <li class="nav-item">
+                        <a href="/flask/templates/customerDataTable.html" class="nav-link sideMenuPages" style="right:-15px !important;">
+                          <i class="fas fa-table"></i>
+                          <p style="font-size: 12px; font-weight:bold;">
+                            Customer Data Table
+                          </p>
+                        </a>
+                    </li>
+    
+                    <li class="nav-item">
+                      <a href="/flask/templates/merchantFrequencyDataTable.html" class="nav-link sideMenuPages" style="right:-15px !important;">
+                        <i class="fas fa-table"></i>
+                        <p style="font-size: 12px; font-weight:bold;">
+                          Merchant Frequency Data Table
+                        </p>
+                      </a>
+                    </li>
+    
+                    <li class="nav-item">
+                      <a href="/flask/templates/merchantScoreDataTable.html" class="nav-link sideMenuPages" style="right:-15px !important;">
+                        <i class="fas fa-table"></i>
+                        <p style="font-size: 12px; font-weight:bold;">
+                          Merchant Score Data Table
+                        </p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="/flask/templates/mbaDataTable.html" class="nav-link sideMenuPages" style="right:-15px !important;">
+                        <i class="fas fa-table"></i>
+                        <p style="font-size: 12px; font-weight:bold;">
+                          Market Basket Analysis Data Table
+                        </p>
+                      </a>
+                    </li>
+                </ul>
+            </li>
+    
+    
+              <li class="nav-item">
+                <a href="/flask/templates/help.html" class="nav-link sideMenuPages">
+                  <i class="nav-icon fas fa-question"></i>
+                  <p style="font-weight: bold;">
+                    Help
+                  </p>
+                </a>
+              </li>
+              
+          </nav>
+          <!-- /.sidebar-menu -->
+        </div>
+        <!-- /.sidebar -->
+    </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 id="pageTitle">Cleaned Raw Data Table</h1>
+          </div>
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item">Home</li>
+              <li class="breadcrumb-item active">Cleaned Raw Data Table</li>
+            </ol>
+          </div>
+        </div>
+      </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+          <!-- SELECT2 EXAMPLE -->
+          <div class="card card-default">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card card-default">
+                <div class="card-header">
+                  <h3 class="card-title" id="lastUploaded"></h3>
+                </div>
+                <div class="card-body">
+                    
+                    <!-- <button type="button" id="getData" class="btn btn-block btn-outline-info btns" >Display Data</button></br> -->
+                    <table id="example" class="table table-bordered table-hover">
+                        <thead>
+                        <tr>
+                          <th>Customer ID</th>
+                          <th>Age Group</th>
+                          <th>Annual Income</th>
+                          <th>Beverage</th>
+                          <th>Beverage Average</th>
+                          <th>Beverage Recency</th>
+                          <th>Bin Beverage Average</th>
+                          <th>Bin Clothing Average</th>
+                          <th>Bin Electronic Average</th>
+                          <th>Bin FFFC Average</th>
+                          <th>Bin Grocery Average</th>
+                          <th>Bin HBA Average</th>
+                          <th>Bin Household Average</th>
+                          <th>Bin Restaurant Average</th>
+                          <th>Bin Sports Average</th>
+                          <th>Card Ownership</th>
+                          <th>Categories</th>
+                          <th>Clothing</th>
+                          <th>Clothing Average</th>
+                          <th>Clothing Recency</th>
+                          <th>Discounts</th>
+                          <th>Education </th>
+                          <th>Electronic</th>
+                          <th>Electronic Average</th>
+                          <th>Electronic Recency</th>
+                          <th>FFFC</th>
+                          <th>FFFC Average</th>
+                          <th>FFFC Recency</th>
+                          <th>Frequency</th>
+                          <th>Gender</th>
+                          <th>Grocery </th>
+                          <th>Grocery Average </th>
+                          <th>Grocery Recency </th>
+                          <th>HBA</th>
+                          <th>HBA Average </th>
+                          <th>HBA Recency </th>
+                          <th>Household </th>
+                          <th>Household Average </th>
+                          <th>Household Recency </th>
+                          <th>Industry</th>
+                          <th>Payment Method </th>
+                          <th>Region </th>
+                          <th>Restaurant </th>
+                          <th>Restaurant Average </th>
+                          <th>Restaurant Recency </th>
+                          <th>Sports </th>
+                          <th>Sports Average </th>
+                          <th>Sports Recency </th>
+                        </tr>
+                        </thead>
+                        
+                        
+                      </table>
+
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container-fluid -->
+      </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+  <footer class="main-footer">
+    <div class="float-right d-none d-sm-block">
+      <b>Version</b> 3.1.0-pre
+    </div>
+    <strong>Copyright &copy; 2020 <a style="color:#0DCED7" href="/index.html">MarTechX</a>.</strong> All rights reserved.
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- ./wrapper -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+<!-- jQuery -->
+<!-- <script src="../../plugins/jquery/jquery.min.js"></script> -->
+<!-- Bootstrap 4 -->
+<script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Select2 -->
+<script src="../../plugins/select2/js/select2.full.min.js"></script>
+<!-- Bootstrap4 Duallistbox -->
+<script src="../../plugins/bootstrap4-duallistbox/jquery.bootstrap-duallistbox.min.js"></script>
+<!-- InputMask -->
+<script src="../../plugins/moment/moment.min.js"></script>
+<script src="../../plugins/inputmask/jquery.inputmask.min.js"></script>
+<!-- date-range-picker -->
+<script src="../../plugins/daterangepicker/daterangepicker.js"></script>
+<!-- bootstrap color picker -->
+<script src="../../plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="../../plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Bootstrap Switch -->
+<script src="../../plugins/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+<!-- BS-Stepper -->
+<script src="../../plugins/bs-stepper/js/bs-stepper.min.js"></script>
+<!-- dropzonejs -->
+<script src="../../plugins/dropzone/min/dropzone.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../../dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="../../dist/js/demo.js"></script>
+
+<script>
+
+localStorage.setItem("pageTitle", document.getElementById("pageTitle").innerText);
+  
+  pageSelected = document.getElementsByClassName("sideMenuPages")
+  for (let i=0; i<pageSelected.length; i++){
+    let pageName = pageSelected[i].innerText
+    pageName = pageName.trim()
+    let currentPage = localStorage.getItem("pageTitle");
+    if (currentPage == pageName){
+      document.getElementsByClassName("sideMenuPages")[i].style.color = "#0DCED7";
+    }
+  }
+
+
+            function custTable(data){
+                $('#example').DataTable( {
+                    paging: true,
+                    lengthChange: false,
+                    ordering: true,
+                    info: true,
+                    autoWidth: false,
+                    responsive: true,
+                    data: data,
+                    scrollX: true,
+                    scrollY: 500,
+                    columns: [
+                    { data: 'customer_id'},
+                    { data: 'age_group'},
+                    { data: 'annual_income'},
+                    { data: 'beverage'},
+                    { data: 'beverage_average'},
+                    { data: 'beverage_recency'},
+                    { data: 'bin_beverage_avg'},
+                    { data: 'bin_clothing_avg'},
+                    { data: 'bin_electronic_avg'},
+                    { data: 'bin_fffc_avg'},
+                    { data: 'bin_grocery_avg'},
+                    { data: 'bin_hba_avg'},
+                    { data: 'bin_household_avg'},
+                    { data: 'bin_restaurant_avg'},
+                    { data: 'bin_sports_avg'},
+                    { data: 'card_ownership'},
+                    { data: 'categories'},
+                    { data: 'clothing'},
+                    { data: 'clothing_average'},
+                    { data: 'clothing_recency'},
+                    { data: 'discounts'},
+                    { data: 'education'},
+                    { data: 'electronic'},
+                    { data: 'electronic_average'},
+                    { data: 'electronic_recency'},
+                    { data: 'fffc'},
+                    { data: 'fffc_average'},
+                    { data: 'fffc_recency'},
+                    { data: 'frequency'},
+                    { data: 'gender'},
+                    { data: 'grocery'},
+                    { data: 'grocery_average'},
+                    { data: 'grocery_recency'},
+                    { data: 'hba'},
+                    { data: 'hba_average'},
+                    { data: 'hba_recency'},
+                    { data: 'household'},
+                    { data: 'household_average'},
+                    { data: 'household_recency'},
+                    { data: 'industry'},
+                    { data: 'payment_method'},
+                    { data: 'region'},
+                    { data: 'restaurant'},
+                    { data: 'restaurant_average'},
+                    { data: 'restaurant_recency'},
+                    { data: 'sports'},
+                    { data: 'sports_average'},
+                    { data: 'sports_recency'}
+                    ]
+                } );
+                
+            }
+
+
+        function loadData(){
+            const Url = 'http://127.0.0.1:5000/getdata'
+            // $('#getData').click(function(){
+                const data = {
+                tablename:'clean_raw_data'
+                } 
+                $.ajax({
+                    url:Url,
+                    type:"GET",
+                    data:data,
+                success:function(result){
+                    console.log(result)
+                    custTable(result)
+                    let lastUploadedDT = "-"
+                    if (localStorage.getItem("lastUploadedDT") != null){
+                      lastUploadedDT = localStorage.getItem("lastUploadedDT")
+                    }
+                    document.getElementById("lastUploaded").innerHTML = "Last Updated: " + lastUploadedDT
+                    document.getElementById("lastUploaded").style.color = "#6c757d"
+                    document.getElementById("lastUploaded").style.fontSize = "14px"
+                    document.getElementById("lastUploaded").style.fontStyle = "italic"
+                },
+                error:function(error){
+                    console.log(`Error ${error}`)
+                }
+                })
+            // })
+        }
+
+
+            document.addEventListener('DOMContentLoaded', function() {
+                loadData();
+                document.getElementById("lastUploaded").innerHTML = "Last Updated: " + "-"
+                document.getElementById("lastUploaded").style.color = "#6c757d"
+                document.getElementById("lastUploaded").style.fontSize = "14px"
+                document.getElementById("lastUploaded").style.fontStyle = "italic"
+            }, false);
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,324 @@
+MerchantID,Category,Merchant,Freq
+0,restaurant,None,99
+1,restaurant,saizeriya,24
+2,restaurant,astons,18
+3,restaurant,genki sushi,15
+4,restaurant,hai di lao,14
+5,restaurant,monster curry,12
+6,restaurant,hot tomato,11
+7,restaurant,din tai fung,11
+8,restaurant,genki,10
+9,restaurant,ajisen,9
+10,restaurant,sukiya,7
+11,restaurant,mala,6
+12,restaurant,ding tai fung,6
+13,restaurant,ichiban boshi,6
+14,restaurant,pastamania,5
+15,restaurant,coffee bean,5
+16,restaurant,starbucks,5
+17,restaurant,toast box,5
+18,restaurant,beauty in a pot,5
+19,restaurant,keisuke ramen,4
+20,restaurant,jiak,4
+21,restaurant,biap,4
+22,restaurant,toastbox,4
+23,restaurant,maki-san,4
+24,restaurant,tori-q,4
+25,restaurant,colins,4
+26,restaurant,paradise dynasty,4
+27,restaurant,upin hotpot,4
+28,restaurant,mac,4
+29,restaurant,sakae sushi,4
+30,restaurant,tampopo,3
+31,restaurant,bitp,3
+32,restaurant,macdonalds,3
+33,restaurant,hans,3
+34,restaurant,toriq,3
+35,restaurant,mcdonald,3
+36,restaurant,putien,3
+37,restaurant,ding tai feng,3
+38,restaurant,beauty in the pot,3
+39,restaurant,sanpoutei,3
+40,restaurant,yakun,3
+41,restaurant,cedele,3
+42,restaurant,mos burger,3
+43,restaurant,steamboat,3
+44,restaurant,lawry's prime ribs,3
+45,restaurant,open farm concept,3
+46,restaurant,black tap singapore,3
+47,restaurant,nam nam,3
+48,restaurant,japanese restaurants,3
+49,restaurant,mookata,3
+50,restaurant,nihon mura express,3
+51,restaurant,gelare,3
+52,restaurant,chomp chomp,3
+53,restaurant,cherry blosom,3
+54,restaurant,tim ho wan,3
+55,restaurant,makisan,3
+56,restaurant,4 fingers,3
+57,restaurant,ma maison,3
+58,restaurant,tung lok,3
+59,restaurant,mcdonalds,3
+60,restaurant,shi li fang,3
+61,restaurant,guzman y gomez,3
+62,restaurant,keisuke,3
+63,restaurant,isteaks,3
+64,restaurant,coco ichiban,3
+65,restaurant,food republic,3
+66,restaurant,qiji,3
+67,restaurant,nagi ramen,3
+68,restaurant,beauty pot,3
+69,restaurant,ah chew desserts,3
+70,restaurant,saute san,3
+71,restaurant,soup restaurant,3
+72,restaurant,ajisen ramen,3
+73,restaurant,song fa,3
+74,restaurant,itacho,3
+75,restaurant,i dragon,3
+76,restaurant,chilli,3
+77,restaurant,nomvnom,3
+78,restaurant,japanese ramen restaurants,2
+79,restaurant,tanjong beach club,2
+80,restaurant,jap ramen restaurants,2
+81,restaurant,overseasy,2
+82,restaurant,i dont know,2
+83,restaurant,mac kfc burger king,2
+84,restaurant,aston,2
+85,restaurant,korean,2
+86,restaurant,hotpot (hdl),2
+87,restaurant,some prata place,2
+88,restaurant,none in particular,2
+89,restaurant,swensen’s,2
+90,restaurant,dont have,2
+91,restaurant,qi ji,1
+92,restaurant,korean bbq,1
+93,restaurant,ding ji,1
+94,fffc,None,108
+95,fffc,kfc,72
+96,fffc,kopitiam,46
+97,fffc,mcdonalds,38
+98,fffc,subway,26
+99,fffc,koufu,25
+100,fffc,macdonalds,22
+101,fffc,mcdonald,22
+102,fffc,food republic,17
+103,fffc,burger king,13
+104,fffc,4fingers,9
+105,fffc,texas chicken,7
+106,fffc,encik tan,7
+107,fffc,mos burger,6
+108,fffc,fast food joints,6
+109,fffc,mcdonald’s,6
+110,fffc,mcd,3
+111,fffc,18 tai seng,3
+112,fffc,wingstop,3
+113,fffc,nex shopping mall,3
+114,fffc,j8,3
+115,fffc,kopidiam,3
+116,fffc,macdonald,3
+117,fffc,old chang kee,3
+118,fffc,defu eating house,2
+119,fffc,woodlands,2
+120,fffc,bishan food court,2
+121,fffc,macdonald's,2
+122,fffc,guzman y gomez,2
+123,fffc,foodrepublic,2
+124,fffc,macs,2
+125,fffc,maki-san,2
+126,fffc,mala,2
+127,fffc,hawker centre,2
+128,fffc,ci yuan hawker centre,2
+129,fffc,coffee shop,2
+130,fffc,burgerking,2
+131,fffc,mcdonald's,2
+132,fffc,tori q,2
+133,fffc,mac,2
+134,fffc,malaysia boleh,2
+135,fffc,fine foods,2
+136,grocery,None,127
+137,grocery,ntuc,78
+138,grocery,giant,73
+139,grocery,cold storage,42
+140,grocery,fairprice,26
+141,grocery,sheng shiong,16
+142,grocery,shengsiong,12
+143,grocery,sheng siong,8
+144,grocery,fair price,6
+145,grocery,ang mo supermarket,6
+146,grocery,redmart,5
+147,grocery,wet market,5
+148,grocery,ntuc fairprice,4
+149,grocery,mama shop,2
+150,grocery,tesco,2
+151,grocery,jaya,2
+152,grocery,u star,2
+153,grocery,giant cold fairprice,2
+154,grocery,jaya jusco,2
+155,grocery,prime,2
+156,grocery,value shop,2
+157,grocery,hao mart,2
+158,grocery,ustars,2
+159,grocery,shenshiong,2
+160,grocery,minimart,2
+161,grocery,sheng song,2
+162,grocery,shengshiong,2
+163,grocery,ang mo,2
+164,grocery,angmo supermarket,2
+165,electronic,None,197
+166,electronic,challenger,38
+167,electronic,courts,17
+168,electronic,best denki,13
+169,electronic,lazada,13
+170,electronic,shopee,7
+171,electronic,amazon,6
+172,electronic,harvey norman,6
+173,electronic,qoo10,6
+174,electronic,apple,5
+175,electronic,logitech,4
+176,electronic,oneplus,4
+177,electronic,samsung,4
+178,electronic,razer,3
+179,electronic,applw,2
+180,electronic,apple samsung huawei,2
+181,electronic,idk,2
+182,electronic,dynacore,2
+183,sports,None,204
+184,sports,adidas,35
+185,sports,nike,31
+186,sports,decathlon,20
+187,sports,fila,8
+188,sports,decathalon,7
+189,sports,skechers,6
+190,sports,royal sporting house,5
+191,sports,sportsfactory,4
+192,sports,underarmour,3
+193,sports,outdoor life,2
+194,sports,ufc gym,2
+195,sports,new balance,1
+196,clothing,None,142
+197,clothing,uniqlo,34
+198,clothing,h&m,23
+199,clothing,cotton on,21
+200,clothing,zara,14
+201,clothing,zalora,13
+202,clothing,love bonito,13
+203,clothing,asos,9
+204,clothing,taobao,9
+205,clothing,pull & bear,8
+206,clothing,adidas,6
+207,clothing,ezbuy,6
+208,clothing,metro,5
+209,clothing,young hungry free,5
+210,clothing,the editors market,5
+211,clothing,the closet lover,5
+212,clothing,runway bandits,5
+213,clothing,lovet,4
+214,clothing,tinsel rack,4
+215,clothing,shopee,4
+216,clothing,nike,4
+217,clothing,uniqlo topman zara,3
+218,clothing,vans,3
+219,clothing,leftfoot,2
+220,clothing,online shops,2
+221,clothing,paragon,2
+222,clothing,lazada,2
+223,clothing,yishion,2
+224,clothing,neonmello,2
+225,clothing,online websites stockx,2
+226,clothing,h&m cotton on uniqlo,2
+227,clothing,endclothing,2
+228,clothing,shopsassydream,2
+229,clothing,hercoeurstory,2
+230,clothing,g2000,2
+231,clothing,temt,2
+232,clothing,h&n,2
+233,clothing,robinsons,2
+234,clothing,topman,2
+235,clothing,younghungryfree,2
+236,clothing,fashmob,2
+237,clothing,takashimaya,2
+238,clothing,brunello,2
+239,clothing,bershka,2
+240,clothing,shein,2
+241,clothing,online platform,2
+242,clothing,causeway point,2
+243,clothing,various,2
+244,clothing,vivo,2
+245,hba,None,187
+246,hba,sephora,27
+247,hba,watsons,15
+248,hba,innisfree,13
+249,hba,guardian,13
+250,hba,amazon,9
+251,hba,etude house,9
+252,hba,shopee,9
+253,hba,watson,6
+254,hba,gnc,6
+255,hba,laneige,5
+256,hba,clinique,4
+257,hba,guadian,2
+258,hba,online purchase,2
+259,hba,four seasons spa,2
+260,hba,watsons guardian,2
+261,hba,guardian watson all,2
+262,hba,venus,2
+263,hba,yu ren seng,2
+264,hba,metro,2
+265,hba,watson’s,2
+266,hba,guardians,2
+267,hba,blackmores,2
+268,hba,the ordinary,2
+269,hba,colorpop,1
+270,household,None,188
+271,household,ntuc,40
+272,household,daiso,21
+273,household,ikea,11
+274,household,giant,11
+275,household,japan home,9
+276,household,dollar value,8
+277,household,ntuc fairprice,7
+278,household,sheng siong,7
+279,household,amazon,6
+280,household,muji,6
+281,household,lazada,4
+282,household,prime,3
+283,household,hooga,2
+284,household,shopee,2
+285,household,cold storage,2
+286,household,best dengki,2
+287,household,ck,2
+288,household,ez home products pte ltd,2
+289,household,harvey norman,2
+290,household,samsung,2
+291,household,fair price,2
+292,household,gmc,2
+293,household,qoo10,2
+294,household,redmart,2
+295,beverage,None,177
+296,beverage,koi,52
+297,beverage,liho,22
+298,beverage,playmade,16
+299,beverage,gongcha,13
+300,beverage,gong cha,10
+301,beverage,r&b,6
+302,beverage,starbucks,6
+303,beverage,coffee bean,6
+304,beverage,xing fu tang,6
+305,beverage,chichasanqian,6
+306,beverage,boost,4
+307,beverage,coffeebean,4
+308,beverage,xin fu tang,3
+309,beverage,tiger sugar,3
+310,beverage,xingfu tang,3
+311,beverage,7-11,2
+312,beverage,mr coconut,2
+313,beverage,chi cha san chen,2
+314,beverage,giant,2
+315,beverage,kopitiam,2
+316,beverage,jiu xian,2
+317,beverage,bober,2
+318,beverage,cold storage,2
+319,beverage,ntuc,2
+320,beverage,alley,2
+321,beverage,kungfu,2
+322,beverage,partea,2

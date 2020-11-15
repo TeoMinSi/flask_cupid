@@ -1,0 +1,249 @@
+,customer_id,age_group,gender,region,industry,annual_income,education,payment_method,card_ownership,discounts,categories,RFM,RFM_segment,average_recency,average_frequency,average_monetary
+0,0,< 20 years old,Male,North-East,Technology,I am a Student,Diploma,"Cash,Debit Card","DBS/POSB,OCBC",Yes,"restaurant,fffc,electronic,sports,clothing",143,Loyal customers,144.0,30.0,450.0
+1,1,21-30 years old,Male,East,Finance,I am a Student,Diploma,"Cash,Debit Card","Citibank,DBS/POSB",Yes,"restaurant,fffc,grocery,clothing,beverage",221,Regulars,45.0,10.0,155.0
+2,2,21-30 years old,Female,North,Medical,"$20,001 - $44,999",University Degree,"Debit Card,NETS Card",OCBC,Yes,"restaurant,fffc,clothing,hba,beverage",122,Almost lost,89.0,10.0,370.0
+3,3,21-30 years old,Female,North-East,Technology,"$20,001 - $44,999",Diploma,Debit Card,"DBS/POSB,OCBC",Yes,"restaurant,fffc,grocery,hba,beverage",343,Loyal customers,27.0,30.0,390.0
+4,4,21-30 years old,Male,North,Engineering,"< $20,000",Diploma,Credit Card,DBS/POSB,Yes,"restaurant,fffc,grocery,clothing,beverage",111,Almost lost,201.0,4.0,181.0
+5,5,< 20 years old,Male,North,Engineering,I am a Student,A Levels,Debit Card,DBS/POSB,Yes,"restaurant,grocery,sports,clothing,hba",133,Almost lost,109.0,20.0,530.0
+6,6,> 50 years old,Male,North,Construction,"$60,000 - $89,999",Diploma,Cash,DBS/POSB,Yes,"fffc,grocery,household",323,Regulars,26.0,10.0,600.0
+7,7,21-30 years old,Male,North-East,Tourism/Hospitality,"$20,001 - $44,999",Diploma,Credit Card,DBS/POSB,Yes,"restaurant,electronic,clothing,beverage",424,Big spenders,19.0,10.0,950.0
+8,8,21-30 years old,Female,North-East,Events,I am a Student,Diploma,"Cash,NETS Card","DBS/POSB,OCBC",Yes,"fffc,grocery,hba,household,beverage",111,Almost lost,83.0,2.0,80.0
+9,9,21-30 years old,Male,Central/South,Technology,"< $20,000",A Levels,Cash,"DBS/POSB,Standard Chartered",Yes,"restaurant,fffc,grocery,clothing,hba",113,Almost lost,139.0,4.0,510.0
+10,10,> 50 years old,Female,North-East,Travel,"$60,000 - $89,999",Diploma,Credit Card,"Citibank,DBS/POSB,HSBC,American Express",Yes,"restaurant,grocery,clothing,hba,household",112,Almost lost,159.0,1.0,279.0
+11,11,> 50 years old,Male,North-East,Consulting,"> $120,000",Diploma,"Cash,Credit Card","Citibank,DBS/POSB,OCBC,HSBC,American Express",Yes,"restaurant,fffc,grocery,electronic,household",244,Big spenders,58.0,30.0,2300.0
+12,12,21-30 years old,Female,North-East,Finance,"$20,001 - $44,999",University Degree,Debit Card,OCBC,Yes,"restaurant,fffc,electronic,clothing,hba",121,Almost lost,244.0,10.0,100.0
+13,13,21-30 years old,Female,West,Social Sciences,I am a Student,A Levels,"Debit Card,NETS Card",DBS/POSB,Yes,"restaurant,fffc,grocery,clothing,hba",121,Almost lost,77.0,10.0,110.0
+14,14,> 50 years old,Male,Central/South,Business/HR,"$45,000 - $59,999",Masters Degree,Cash,OCBC,Yes,"fffc,grocery,beverage",131,Almost lost,83.0,20.0,210.0
+15,15,21-30 years old,Male,North-East,Technology,"< $20,000",A Levels,Debit Card,DBS/POSB,Yes,"restaurant,fffc,grocery,electronic,clothing",223,Regulars,42.0,10.0,550.0
+16,16,21-30 years old,Female,West,Humanities,I am a Student,University Degree,"Cash,Credit Card,Debit Card,NETS Card",DBS/POSB,Yes,"restaurant,fffc,clothing,beverage",143,Loyal customers,135.0,30.0,560.0
+17,17,21-30 years old,Female,West,Law,I am a Student,A Levels,"Credit Card,Debit Card","OCBC,American Express,Standard Chartered",Yes,"restaurant,fffc,electronic,beverage",244,Big spenders,41.0,30.0,670.0
+18,18,21-30 years old,Male,West,Technology,I am a Student,A Levels,Cash,"DBS/POSB,OCBC",Yes,"restaurant,grocery,electronic,sports,clothing",111,Almost lost,205.0,4.0,112.0
+19,19,< 20 years old,Female,North-East,Technology,"< $20,000",A Levels,Credit Card,"Citibank,DBS/POSB,American Express,Standard Chartered",Yes,"restaurant,beverage",321,Regulars,21.0,10.0,67.0
+20,20,31-40 years old,Female,North-East,Services,"> $120,000",University Degree,Credit Card,"Citibank,DBS/POSB,HSBC,American Express",Yes,"restaurant,grocery,hba,household",444,Champions,19.0,30.0,2300.0
+21,21,> 50 years old,Female,Central/South,Finance,"$45,000 - $59,999",Diploma,Credit Card,Standard Chartered,Yes,"grocery,clothing,hba,household",244,Big spenders,71.0,30.0,650.0
+22,22,21-30 years old,Male,Central/South,Technology,"< $20,000",A Levels,Debit Card,DBS/POSB,Yes,"restaurant,electronic,clothing",241,Loyal customers,34.0,30.0,190.0
+23,23,21-30 years old,Male,East,Finance,I am a Student,A Levels,"Cash,Debit Card",DBS/POSB,Yes,"restaurant,fffc,beverage",113,Almost lost,110.0,4.0,539.0
+24,24,> 50 years old,Male,East,Technology,"> $120,000",A Levels,Credit Card,"Citibank,American Express",Yes,"restaurant,grocery,clothing",134,Big spenders,186.0,20.0,2400.0
+25,25,> 50 years old,Female,North,Tourism/Hospitality,"> $120,000",Masters Degree,"Cash,Credit Card,NETS Card","DBS/POSB,OCBC,HSBC,American Express",Yes,"grocery,clothing,hba,household",234,Big spenders,53.0,20.0,1650.0
+26,26,41-50 years old,Female,East,Tourism/Hospitality,"$20,001 - $44,999",Diploma,Credit Card,"DBS/POSB,Uob",Yes,"grocery,hba,household",224,Big spenders,69.0,10.0,1255.0
+27,27,> 50 years old,Female,North,Business/HR,"$20,001 - $44,999",Diploma,NETS Card,OCBC,Yes,"fffc,grocery,household",212,Regulars,50.0,2.0,350.0
+28,28,21-30 years old,Male,North,Engineering,I am a Student,A Levels,Credit Card,Uob,Yes,"restaurant,fffc,clothing",222,Regulars,30.0,10.0,300.0
+30,30,> 50 years old,Male,North-East,Security,"$20,001 - $44,999",Primary School,NETS Card,DBS/POSB,Yes,"fffc,household",213,Regulars,74.0,1.0,400.0
+31,31,> 50 years old,Male,North-East,Real Estate and Fengshui,"$45,000 - $59,999",Diploma,Cash,"DBS/POSB,Uob, Maybank",Yes,"fffc,grocery,clothing,household",112,Almost lost,245.0,1.0,350.0
+32,32,21-30 years old,Female,North,Media,"$60,000 - $89,999",Masters Degree,Credit Card,"DBS/POSB,OCBC,Uob",Yes,"grocery,electronic,household",132,Almost lost,110.0,20.0,350.0
+33,33,> 50 years old,Male,West,Oil and gas,"> $120,000",University Degree,"Cash,Credit Card",HSBC,Yes,"restaurant,grocery,household",434,Big spenders,19.0,20.0,1100.0
+34,34,21-30 years old,Female,North,Life Sciences,I am a Student,University Degree,Cash,DBS/POSB,No,"restaurant,grocery,clothing",111,Almost lost,126.0,2.0,170.0
+35,35,> 50 years old,Male,North,Business/HR,"$60,000 - $89,999",University Degree,"Cash,Credit Card",DBS/POSB,Yes,"fffc,grocery",412,Recent customers,15.0,2.0,320.0
+36,36,> 50 years old,Male,North-East,Publishing,"$90,000 - $120,000",University Degree,Credit Card,"OCBC,Uob",Yes,"fffc,grocery,household",233,Regulars,30.0,20.0,450.0
+37,37,> 50 years old,Female,North,Services,"$90,000 - $120,000",Diploma,Credit Card,"Citibank,DBS/POSB,OCBC,HSBC",Yes,"fffc,grocery,clothing",224,Big spenders,70.0,10.0,750.0
+38,38,21-30 years old,Male,North,Business/HR,I am a Student,Diploma,Debit Card,DBS/POSB,Yes,"restaurant,fffc,grocery",414,Big spenders,13.0,2.0,950.0
+39,39,21-30 years old,Female,North-East,Medical,I am a Student,A Levels,Credit Card,"DBS/POSB,OCBC",Yes,"restaurant,fffc,beverage",433,Recent customers,19.0,20.0,415.0
+40,40,21-30 years old,Male,East,Technology,"$20,001 - $44,999",University Degree,Debit Card,DBS/POSB,Yes,"restaurant,fffc,grocery",223,Regulars,40.0,10.0,400.0
+41,41,21-30 years old,Male,North-East,Business/HR,I am a Student,Diploma,Credit Card,"DBS/POSB,OCBC",Yes,"restaurant,grocery",422,Recent customers,15.0,10.0,300.0
+42,42,21-30 years old,Female,Central/South,Mathematics,I am a Student,A Levels,"Credit Card,Debit Card","Citibank,DBS/POSB,OCBC",Yes,"restaurant,clothing,hba",442,Loyal customers,19.0,30.0,340.0
+43,43,21-30 years old,Male,Central/South,Technology,"$45,000 - $59,999",University Degree,Debit Card,DBS/POSB,Yes,"restaurant,grocery",442,Loyal customers,11.0,30.0,300.0
+44,44,21-30 years old,Female,North-East,Business/HR,"$20,001 - $44,999",University Degree,Credit Card,Standard Chartered,Yes,"restaurant,fffc,beverage",441,Loyal customers,15.0,30.0,165.0
+45,45,21-30 years old,Female,North-East,Business/HR,I am a Student,Diploma,"Cash,Credit Card,Debit Card","DBS/POSB,OCBC",Yes,"fffc,grocery,hba",314,Big spenders,27.0,2.0,1300.0
+46,46,21-30 years old,Female,North-East,Technology,I am a Student,A Levels,Debit Card,DBS/POSB,Yes,"restaurant,fffc,grocery,electronic,beverage",334,Big spenders,28.0,20.0,800.0
+47,47,21-30 years old,Female,East,Medical,"$20,001 - $44,999",University Degree,Credit Card,DBS/POSB,Yes,"restaurant,clothing",341,Loyal customers,28.0,30.0,130.0
+48,48,21-30 years old,Male,East,Floral & Landscaping,"< $20,000",Diploma,Debit Card,DBS/POSB,Yes,"restaurant,fffc,beverage",444,Champions,15.0,30.0,900.0
+49,217,21-30 years old,Male,North,Business/HR,I am a Student,Diploma,"Cash,Debit Card",DBS/POSB,Yes,"restaurant,grocery,beverage",312,Regulars,26.0,4.0,250.0
+50,49,21-30 years old,Female,North,Engineering,I am a Student,A Levels,"Cash,Debit Card,Paylah/Grabpay","DBS/POSB,OCBC",Yes,"fffc,grocery,beverage",422,Recent customers,11.0,10.0,330.0
+51,50,21-30 years old,Female,North-East,Technology,I am a Student,A Levels,"Cash,Debit Card,NETS Card",DBS/POSB,Yes,"restaurant,fffc,grocery",111,Almost lost,80.0,4.0,80.0
+52,51,21-30 years old,Female,Central/South,Business/HR,I am a Student,University Degree,Debit Card,"Citibank,DBS/POSB",Yes,"restaurant,clothing,hba",211,Regulars,30.0,2.0,95.0
+53,52,21-30 years old,Male,North,Technology,"< $20,000",Diploma,Credit Card,DBS/POSB,Yes,"restaurant,fffc,grocery",421,Recent customers,13.0,10.0,200.0
+54,53,21-30 years old,Male,North,Business/HR,I am a Student,Diploma,"Cash,Debit Card",DBS/POSB,Yes,"restaurant,grocery,beverage",312,Regulars,26.0,4.0,250.0
+55,54,21-30 years old,Female,East,Wedding,"$20,001 - $44,999",O Levels,"Cash,Debit Card,NETS Card","DBS/POSB,OCBC,Standard Chartered",Yes,"clothing,hba,beverage",213,Regulars,72.0,2.0,450.0
+56,55,21-30 years old,Male,East,Services,"$20,001 - $44,999",O Levels,"Cash,Debit Card,NETS Card",Uob,Yes,"sports,clothing",141,Loyal customers,127.0,30.0,200.0
+57,56,> 50 years old,Female,Central/South,Technology,"> $120,000",University Degree,Credit Card,Uob,Yes,"restaurant,hba,household",244,Big spenders,73.0,30.0,1000.0
+58,57,21-30 years old,Female,West,Technology,I am a Student,Diploma,"Cash,Debit Card","DBS/POSB,OCBC,Standard Chartered",Yes,"restaurant,fffc,clothing",432,Recent customers,19.0,20.0,250.0
+59,58,21-30 years old,Female,West,Finance,"$20,001 - $44,999",University Degree,"Cash,Credit Card","Citibank,DBS/POSB,OCBC",Yes,"fffc,clothing,beverage",312,Regulars,27.0,4.0,250.0
+60,59,21-30 years old,Female,North-East,Technology,I am a Student,A Levels,"Cash,Debit Card","DBS/POSB,OCBC",Yes,"fffc,sports,beverage",431,Recent customers,19.0,20.0,180.0
+61,60,21-30 years old,Female,North,Services,"$20,001 - $44,999",University Degree,Debit Card,"DBS/POSB,OCBC,Standard Chartered",Yes,"restaurant,clothing,hba",244,Big spenders,40.0,30.0,1000.0
+62,61,> 50 years old,Female,North-East,Housewife,"< $20,000",O Levels,"Cash,Debit Card",DBS/POSB,Yes,"fffc,grocery,household",422,Recent customers,15.0,10.0,310.0
+63,62,31-40 years old,Male,Central/South,Engineering,"$45,000 - $59,999",A Levels,"Cash,Credit Card,Debit Card,NETS Card",DBS/POSB,Yes,"grocery,electronic,beverage",434,Big spenders,15.0,20.0,700.0
+64,63,> 50 years old,Male,North-East,Construction,"< $20,000",O Levels,Cash,DBS/POSB,No,"fffc,grocery,sports",111,Almost lost,186.0,0.0,90.0
+65,64,21-30 years old,Female,Central/South,Engineering,I am a Student,A Levels,"Cash,Debit Card,NETS Card",DBS/POSB,Yes,"fffc,grocery,household",444,Champions,9.0,30.0,1400.0
+66,65,21-30 years old,Female,North,Services,"$20,001 - $44,999",University Degree,"Cash,Credit Card,Debit Card,NETS Card","DBS/POSB,OCBC",Yes,"restaurant,grocery,sports",444,Champions,9.0,30.0,800.0
+67,66,31-40 years old,Female,Central/South,Business/HR,"$45,000 - $59,999",University Degree,"Cash,Credit Card,Debit Card,NETS Card","Citibank,DBS/POSB,American Express",Yes,"restaurant,clothing,hba",444,Champions,9.0,30.0,700.0
+68,67,> 50 years old,Male,North,Technology,"> $120,000",PhD,"Cash,Credit Card,Debit Card,NETS Card","Citibank,DBS/POSB,OCBC,American Express,Standard Chartered",Yes,"restaurant,clothing,household",142,Loyal customers,140.0,30.0,300.0
+69,68,41-50 years old,Female,Central/South,Business/HR,"$60,000 - $89,999",University Degree,"Cash,Credit Card,Debit Card,NETS Card","Citibank,DBS/POSB,OCBC,American Express",Yes,"restaurant,clothing,hba",333,Regulars,23.0,20.0,460.0
+70,69,> 50 years old,Male,North,Construction,"$90,000 - $120,000",University Degree,"Cash,Credit Card,Debit Card,NETS Card","Citibank,DBS/POSB,OCBC,American Express",Yes,"restaurant,electronic,sports",143,Loyal customers,103.0,30.0,450.0
+71,70,31-40 years old,Male,North-East,Business/HR,I am a Student,Diploma,"Cash,Debit Card,NETS Card","DBS/POSB,OCBC",Yes,"fffc,electronic,sports",122,Almost lost,140.0,10.0,225.0
+72,71,> 50 years old,Male,West,Sales,"$45,000 - $59,999",Diploma,"Cash,Credit Card,Debit Card,NETS Card","Citibank,DBS/POSB,OCBC,American Express",Yes,"fffc,electronic,sports",242,Loyal customers,38.0,30.0,350.0
+73,72,> 50 years old,Female,Central/South,Services,"< $20,000",O Levels,"Cash,Debit Card,NETS Card",DBS/POSB,Yes,"fffc,grocery,household",433,Recent customers,9.0,20.0,540.0
+74,73,41-50 years old,Male,East,Technology,"$45,000 - $59,999",University Degree,"Cash,Debit Card","DBS/POSB,OCBC",Yes,"fffc,household,beverage",331,Regulars,28.0,20.0,190.0
+75,74,31-40 years old,Male,East,Retail,"$20,001 - $44,999",Diploma,"Cash,Credit Card,Debit Card,NETS Card","DBS/POSB,OCBC",Yes,"fffc,grocery,beverage",423,Recent customers,17.0,10.0,410.0
+76,75,21-30 years old,Male,North-East,Technology,"< $20,000",Diploma,"Cash,Debit Card",DBS/POSB,Yes,"restaurant,fffc,electronic",321,Regulars,23.0,10.0,200.0
+77,76,21-30 years old,Female,North-East,Technology,I am a Student,A Levels,"Cash,Debit Card",HSBC,Yes,"restaurant,fffc,beverage",331,Regulars,26.0,20.0,180.0
+78,77,> 50 years old,Male,Central/South,Services,"$60,000 - $89,999",Diploma,"Debit Card,NETS Card",DBS/POSB,Yes,"restaurant,fffc,clothing",443,Loyal customers,15.0,30.0,520.0
+79,78,41-50 years old,Female,North-East,Finance,"$20,001 - $44,999",Diploma,Debit Card,DBS/POSB,Yes,"grocery,hba,beverage",342,Loyal customers,23.0,30.0,370.0
+80,79,21-30 years old,Male,North-East,Technology,I am a Student,Diploma,Credit Card,DBS/POSB,Yes,"restaurant,fffc,clothing",112,Almost lost,87.0,4.0,240.0
+81,80,21-30 years old,Female,North-East,Finance,"< $20,000",A Levels,Debit Card,"Citibank,DBS/POSB,OCBC,HSBC",Yes,"restaurant,grocery,clothing,hba",224,Big spenders,29.0,10.0,650.0
+82,81,41-50 years old,Female,West,Technology,"$60,000 - $89,999",Diploma,Cash,DBS/POSB,Yes,"fffc,grocery,household",333,Regulars,21.0,20.0,470.0
+83,82,> 50 years old,Male,Central/South,Finance,"> $120,000",Diploma,Credit Card,"DBS/POSB,OCBC",Yes,"restaurant,electronic,clothing,beverage",244,Big spenders,44.0,30.0,740.0
+84,83,> 50 years old,Male,North-East,Tourism/Hospitality,"$20,001 - $44,999",University Degree,"Cash,NETS Card",DBS/POSB,Yes,"fffc,grocery,household",243,Loyal customers,74.0,30.0,550.0
+85,84,21-30 years old,Female,West,Business/HR,I am a Student,A Levels,Cash,"DBS/POSB,OCBC",Yes,"restaurant,clothing,hba",432,Recent customers,17.0,20.0,350.0
+86,85,41-50 years old,Female,West,Engineering,"$45,000 - $59,999",Masters Degree,Credit Card,"Citibank,DBS/POSB,OCBC",Yes,"grocery,hba,household",444,Champions,17.0,30.0,650.0
+87,86,21-30 years old,Male,West,Life Sciences,"< $20,000",Diploma,"Cash,Credit Card",DBS/POSB,Yes,"restaurant,fffc,electronic",221,Regulars,30.0,10.0,200.0
+88,87,21-30 years old,Male,North-East,Engineering,I am a Student,University Degree,Debit Card,DBS/POSB,Yes,"fffc,electronic,clothing",211,Regulars,34.0,1.0,170.0
+89,88,21-30 years old,Female,North-East,Engineering,I am a Student,A Levels,"Debit Card,NETS Card","DBS/POSB,OCBC",Yes,"restaurant,fffc,hba",431,Recent customers,17.0,20.0,220.0
+90,89,21-30 years old,Female,Central/South,Business/HR,"< $20,000",A Levels,Cash,DBS/POSB,Yes,"fffc,grocery,beverage",442,Loyal customers,17.0,30.0,270.0
+91,90,21-30 years old,Male,Central/South,Technology,"< $20,000",A Levels,Debit Card,DBS/POSB,Yes,"fffc,electronic,clothing",421,Recent customers,19.0,10.0,190.0
+92,91,41-50 years old,Male,East,Business/HR,"> $120,000",University Degree,"Cash,Credit Card,Debit Card,NETS Card",DBS/POSB,Yes,"restaurant,clothing,sports",344,Big spenders,21.0,30.0,1000.0
+93,92,41-50 years old,Male,East,Technology,"$45,000 - $59,999",Diploma,"Credit Card,Debit Card","DBS/POSB,OCBC",Yes,"restaurant,fffc,electronic",344,Big spenders,22.0,30.0,650.0
+94,93,21-30 years old,Female,North,Business/HR,"< $20,000",Diploma,Cash,DBS/POSB,Yes,"restaurant,sports,clothing",322,Regulars,21.0,10.0,280.0
+95,94,21-30 years old,Female,East,Medical,I am a Student,A Levels,Credit Card,HSBC,Yes,"restaurant,beverage,sports",211,Regulars,30.0,4.0,180.0
+96,95,> 50 years old,Female,North,Technology,"> $120,000",A Levels,Credit Card,DBS/POSB,Yes,"grocery,hba,household",444,Champions,13.0,30.0,1700.0
+97,96,> 50 years old,Female,North,Finance,"> $120,000",Masters Degree,Credit Card,DBS/POSB,Yes,"grocery,clothing,hba",444,Champions,13.0,30.0,1300.0
+98,97,> 50 years old,Female,West,Engineering,"$20,001 - $44,999",Diploma,Debit Card,DBS/POSB,Yes,"restaurant,electronic,clothing",234,Big spenders,30.0,20.0,630.0
+99,98,31-40 years old,Male,North-East,Technology,"$20,001 - $44,999",Diploma,"Cash,Debit Card","Citibank,DBS/POSB,OCBC,HSBC",Yes,"restaurant,fffc,beverage",432,Recent customers,17.0,20.0,300.0
+100,99,21-30 years old,Male,North-East,Services,"< $20,000",A Levels,Credit Card,DBS/POSB,Yes,"restaurant,grocery,clothing",312,Regulars,28.0,4.0,350.0
+101,100,21-30 years old,Female,North-East,Finance,I am a Student,University Degree,"Cash,Credit Card,NETS Card","DBS/POSB,OCBC",Yes,"clothing,hba,sports",213,Regulars,74.0,1.0,510.0
+102,101,31-40 years old,Male,Central/South,Technology,"$20,001 - $44,999",Primary School,Credit Card,DBS/POSB,Yes,"grocery,electronic,household",212,Regulars,34.0,4.0,350.0
+103,102,> 50 years old,Female,North-East,Finance,"$45,000 - $59,999",Diploma,NETS Card,"DBS/POSB,OCBC",Yes,"fffc,grocery,household",214,Big spenders,72.0,4.0,750.0
+104,103,31-40 years old,Male,North-East,Technology,"$60,000 - $89,999",Masters Degree,Credit Card,"Citibank,DBS/POSB,OCBC",Yes,"restaurant,fffc,clothing",443,Loyal customers,13.0,30.0,570.0
+105,104,> 50 years old,Female,North-East,Technology,"> $120,000",University Degree,Debit Card,DBS/POSB,Yes,"restaurant,clothing,beverage",244,Big spenders,74.0,30.0,650.0
+106,105,21-30 years old,Female,West,Tourism/Hospitality,I am a Student,University Degree,NETS Card,DBS/POSB,Yes,"fffc,household,clothing",421,Recent customers,19.0,10.0,100.0
+107,106,31-40 years old,Male,Central/South,Business/HR,"$20,001 - $44,999",O Levels,Cash,"DBS/POSB,OCBC",Yes,"fffc,clothing,sports",321,Regulars,23.0,10.0,210.0
+108,107,> 50 years old,Male,North-East,Engineering,"> $120,000",University Degree,Credit Card,DBS/POSB,Yes,"grocery,electronic,household",444,Champions,9.0,30.0,1700.0
+109,108,21-30 years old,Female,West,Life Sciences,I am a Student,Diploma,"Cash,Credit Card",DBS/POSB,Yes,"restaurant,grocery,household",113,Almost lost,83.0,4.0,480.0
+110,109,31-40 years old,Female,West,Engineering,"$20,001 - $44,999",University Degree,Cash,DBS/POSB,Yes,"restaurant,grocery,clothing",213,Regulars,39.0,1.0,540.0
+111,110,21-30 years old,Male,West,Engineering,I am a Student,A Levels,"Cash,Credit Card","DBS/POSB,OCBC",Yes,"fffc,grocery,sports",313,Regulars,23.0,4.0,520.0
+112,111,21-30 years old,Female,North-East,Business/HR,"$20,001 - $44,999",University Degree,Credit Card,"DBS/POSB,OCBC",Yes,"fffc,grocery,beverage",213,Regulars,42.0,1.0,400.0
+113,112,21-30 years old,Female,North-East,Technology,"< $20,000",O Levels,Credit Card,HSBC,Yes,"fffc,grocery,clothing",223,Regulars,70.0,10.0,600.0
+114,113,31-40 years old,Female,Central/South,Business/HR,"$45,000 - $59,999",A Levels,Debit Card,DBS/POSB,Yes,"restaurant,fffc,grocery",344,Big spenders,23.0,30.0,620.0
+115,114,21-30 years old,Male,Central/South,Technology,"< $20,000",O Levels,Credit Card,DBS/POSB,Yes,"restaurant,fffc,beverage",421,Recent customers,15.0,10.0,200.0
+116,115,21-30 years old,Male,East,Business/HR,I am a Student,A Levels,Debit Card,DBS/POSB,Yes,"restaurant,fffc,electronic",321,Regulars,24.0,10.0,190.0
+117,116,21-30 years old,Male,East,Medical,"$20,001 - $44,999",University Degree,Credit Card,"Citibank,DBS/POSB,OCBC,HSBC",Yes,"restaurant,grocery,sports",133,Almost lost,76.0,20.0,450.0
+118,117,> 50 years old,Female,North,Technology,"$45,000 - $59,999",University Degree,"Credit Card,Debit Card",DBS/POSB,Yes,"restaurant,clothing,hba",243,Loyal customers,30.0,30.0,550.0
+119,118,31-40 years old,Female,East,Finance,"> $120,000",PhD,Debit Card,"DBS/POSB,OCBC",Yes,"restaurant,grocery,household",434,Big spenders,11.0,20.0,1750.0
+120,119,31-40 years old,Female,North,Engineering,"$60,000 - $89,999",University Degree,Credit Card,DBS/POSB,Yes,"restaurant,fffc,beverage",433,Recent customers,11.0,20.0,420.0
+121,120,31-40 years old,Female,North,Technology,"$90,000 - $120,000",University Degree,"Cash,Credit Card,Debit Card","DBS/POSB,OCBC",Yes,"fffc,grocery,hba",344,Big spenders,21.0,30.0,1270.0
+122,121,21-30 years old,Female,West,Services,I am a Student,Diploma,Debit Card,"Citibank,DBS/POSB,OCBC",Yes,"restaurant,clothing,beverage",422,Recent customers,19.0,10.0,330.0
+123,122,> 50 years old,Male,North-East,Finance,"$45,000 - $59,999",Diploma,Credit Card,DBS/POSB,Yes,"restaurant,clothing,sports",122,Almost lost,87.0,10.0,360.0
+124,123,21-30 years old,Male,North-East,Technology,"< $20,000",O Levels,Debit Card,"DBS/POSB,OCBC",Yes,"restaurant,fffc,sports",131,Almost lost,80.0,20.0,200.0
+125,124,> 50 years old,Female,North,Finance,"$45,000 - $59,999",University Degree,"Cash,Debit Card","DBS/POSB,OCBC",Yes,"fffc,grocery,beverage",412,Recent customers,13.0,1.0,370.0
+126,125,31-40 years old,Male,West,Technology,"$20,001 - $44,999",Diploma,"Cash,Debit Card,NETS Card",DBS/POSB,Yes,"restaurant,fffc,grocery",413,Recent customers,13.0,1.0,420.0
+127,126,31-40 years old,Female,North,Technology,"$20,001 - $44,999",O Levels,Debit Card,DBS/POSB,Yes,"restaurant,clothing,hba",113,Almost lost,87.0,2.0,510.0
+128,127,> 50 years old,Male,North,Tourism/Hospitality,"> $120,000",University Degree,Credit Card,DBS/POSB,Yes,"restaurant,fffc,grocery",444,Champions,9.0,30.0,1450.0
+129,128,21-30 years old,Male,North-East,Business/HR,I am a Student,Diploma,"Cash,Debit Card","DBS/POSB,OCBC",Yes,"restaurant,electronic,beverage",211,Regulars,30.0,2.0,200.0
+130,129,31-40 years old,Female,North,Engineering,"$20,001 - $44,999",University Degree,"Cash,Debit Card,NETS Card","Citibank,DBS/POSB",Yes,"clothing,hba,beverage",412,Recent customers,19.0,1.0,360.0
+131,130,21-30 years old,Male,North,Life Sciences,I am a Student,A Levels,"Cash,Debit Card,NETS Card",OCBC,Yes,"clothing,electronic,sports",142,Loyal customers,76.0,30.0,270.0
+132,131,31-40 years old,Female,North-East,Engineering,"$20,001 - $44,999",University Degree,Credit Card,"DBS/POSB,OCBC",Yes,"restaurant,hba,household",333,Regulars,21.0,20.0,380.0
+133,132,21-30 years old,Male,East,Engineering,"< $20,000",O Levels,"Cash,Debit Card",DBS/POSB,Yes,"restaurant,fffc,clothing",322,Regulars,23.0,10.0,350.0
+134,133,31-40 years old,Male,North-East,Business/HR,"$45,000 - $59,999",A Levels,"Cash,Credit Card",DBS/POSB,Yes,"fffc,clothing,sports",331,Regulars,23.0,20.0,220.0
+135,234,31-40 years old,Male,North-East,Business/HR,I am a Student,Diploma,"Cash,Debit Card,NETS Card","DBS/POSB,OCBC",Yes,"fffc,electronic,sports",122,Almost lost,140.0,10.0,225.0
+136,134,21-30 years old,Female,Central/South,Technology,"< $20,000",O Levels,"Cash,Debit Card",DBS/POSB,Yes,"fffc,sports,beverage",311,Regulars,23.0,2.0,150.0
+137,135,21-30 years old,Male,Central/South,Business/HR,I am a Student,A Levels,Debit Card,DBS/POSB,Yes,"restaurant,clothing,hba",143,Loyal customers,80.0,30.0,390.0
+138,136,31-40 years old,Female,North-East,Technology,"$20,001 - $44,999",University Degree,"Cash,Debit Card","DBS/POSB,OCBC",Yes,"fffc,grocery,household",423,Recent customers,13.0,10.0,550.0
+139,137,31-40 years old,Female,North-East,Business/HR,"$45,000 - $59,999",University Degree,"Cash,Credit Card,Debit Card,NETS Card","DBS/POSB,OCBC",Yes,"grocery,electronic,beverage",433,Recent customers,11.0,20.0,420.0
+140,138,31-40 years old,Female,North-East,Medical,"> $120,000",PhD,Cash,"Citibank,DBS/POSB,HSBC,American Express",Yes,"fffc,grocery,sports",444,Champions,15.0,30.0,1100.0
+141,139,31-40 years old,Female,East,Technology,"$60,000 - $89,999",University Degree,"Cash,Debit Card,NETS Card","Citibank,DBS/POSB,OCBC,HSBC,American Express",Yes,"fffc,grocery,household",444,Champions,13.0,30.0,870.0
+142,140,31-40 years old,Male,East,Finance,"$90,000 - $120,000",University Degree,"Cash,Credit Card,Debit Card,NETS Card",OCBC,Yes,"restaurant,grocery,sports",234,Big spenders,74.0,20.0,750.0
+143,141,21-30 years old,Female,North,Engineering,I am a Student,Diploma,"Cash,Credit Card,Debit Card,NETS Card",DBS/POSB,Yes,"restaurant,clothing,hba",343,Loyal customers,28.0,30.0,400.0
+144,142,21-30 years old,Female,North-East,Technology,"$45,000 - $59,999",Diploma,"Cash,Credit Card,Debit Card,NETS Card",OCBC,Yes,"restaurant,clothing,household",143,Loyal customers,80.0,30.0,600.0
+145,143,21-30 years old,Female,Central/South,Services,"< $20,000",O Levels,"Cash,Credit Card,Debit Card,NETS Card",DBS/POSB,Yes,"restaurant,clothing,hba",331,Regulars,27.0,20.0,210.0
+146,144,> 50 years old,Male,North,Finance,"$45,000 - $59,999",University Degree,"Cash,Credit Card,Debit Card,NETS Card",DBS/POSB,Yes,"restaurant,electronic,sports",233,Regulars,70.0,20.0,450.0
+147,145,31-40 years old,Male,North,Technology,"$20,001 - $44,999",Diploma,"Cash,Debit Card,NETS Card","OCBC,American Express",Yes,"fffc,electronic,sports",122,Almost lost,133.0,10.0,300.0
+148,146,31-40 years old,Female,East,Finance,"$20,001 - $44,999",University Degree,"Cash,Credit Card,Debit Card,NETS Card","DBS/POSB,OCBC",Yes,"fffc,electronic,sports",231,Regulars,53.0,20.0,150.0
+149,147,21-30 years old,Male,East,Technology,I am a Student,A Levels,"Cash,Debit Card,NETS Card","Citibank,DBS/POSB",Yes,"fffc,clothing,household",112,Almost lost,83.0,2.0,240.0
+150,148,> 50 years old,Female,Central/South,Technology,"$45,000 - $59,999",Masters Degree,"Cash,Debit Card",OCBC,Yes,"fffc,household,beverage",432,Recent customers,17.0,20.0,310.0
+151,149,21-30 years old,Female,West,Tourism/Hospitality,"< $20,000",A Levels,"Cash,Credit Card,Debit Card,NETS Card","DBS/POSB,OCBC",Yes,"fffc,grocery,beverage",321,Regulars,24.0,10.0,200.0
+152,150,21-30 years old,Male,West,Business/HR,I am a Student,University Degree,Credit Card,DBS/POSB,Yes,"electronic,beverage,sports",412,Recent customers,17.0,4.0,230.0
+153,151,21-30 years old,Female,North-East,Engineering,I am a Student,A Levels,"Cash,Debit Card",DBS/POSB,Yes,"fffc,clothing,sports",311,Regulars,21.0,4.0,120.0
+154,152,21-30 years old,Male,North-East,Life Sciences,I am a Student,A Levels,"Cash,Credit Card",DBS/POSB,Yes,"fffc,electronic,beverage",211,Regulars,37.0,4.0,90.0
+155,153,21-30 years old,Female,North,Engineering,"< $20,000",A Levels,"Cash,Debit Card",DBS/POSB,Yes,"restaurant,grocery,sports",222,Regulars,57.0,10.0,300.0
+156,154,> 50 years old,Female,West,Engineering,"> $120,000",University Degree,Debit Card,"DBS/POSB,OCBC",Yes,"restaurant,clothing,hba",444,Champions,11.0,30.0,1400.0
+157,155,> 50 years old,Female,North,Business/HR,"$45,000 - $59,999",Diploma,"Cash,Debit Card",DBS/POSB,Yes,"restaurant,clothing,household",243,Loyal customers,70.0,30.0,600.0
+158,156,21-30 years old,Female,North,Technology,"< $20,000",A Levels,"Cash,Credit Card,Debit Card,NETS Card","Citibank,DBS/POSB,HSBC,American Express",Yes,"restaurant,clothing,hba",322,Regulars,27.0,10.0,230.0
+159,157,21-30 years old,Male,North-East,Business/HR,I am a Student,A Levels,Cash,"Citibank,DBS/POSB,OCBC,HSBC,American Express",Yes,"restaurant,electronic,sports",212,Regulars,73.0,2.0,300.0
+160,158,> 50 years old,Female,North,Technology,"> $120,000",A Levels,"Cash,Debit Card,NETS Card",OCBC,Yes,"fffc,electronic,sports",244,Big spenders,74.0,30.0,1300.0
+161,159,> 50 years old,Male,North,Business/HR,"> $120,000",Masters Degree,"Cash,Credit Card,Debit Card,NETS Card",DBS/POSB,Yes,"fffc,electronic,sports",442,Loyal customers,15.0,30.0,350.0
+162,160,31-40 years old,Female,North-East,Medical,"$20,001 - $44,999",Diploma,"Cash,Credit Card,Debit Card,NETS Card",OCBC,Yes,"fffc,grocery,household",433,Recent customers,15.0,20.0,450.0
+163,161,31-40 years old,Male,East,Technology,"$20,001 - $44,999",Diploma,"Cash,Credit Card,Debit Card,NETS Card",DBS/POSB,Yes,"fffc,household,beverage",421,Recent customers,13.0,10.0,130.0
+164,162,21-30 years old,Male,North-East,Finance,I am a Student,A Levels,"Cash,Credit Card,Debit Card,NETS Card",DBS/POSB,Yes,"fffc,sports,beverage",441,Loyal customers,17.0,30.0,120.0
+165,163,21-30 years old,Female,Central/South,Engineering,I am a Student,University Degree,"Cash,Credit Card,Debit Card,NETS Card","OCBC,American Express",Yes,"restaurant,clothing,hba",342,Loyal customers,27.0,30.0,310.0
+166,164,31-40 years old,Male,Central/South,Engineering,"$20,001 - $44,999",Diploma,"Cash,Credit Card,Debit Card,NETS Card","DBS/POSB,OCBC",Yes,"restaurant,electronic,sports",223,Regulars,34.0,10.0,400.0
+167,165,< 20 years old,Male,North-East,Technology,I am a Student,Diploma,"Cash,Debit Card","DBS/POSB,OCBC",Yes,"restaurant,fffc,electronic,sports,clothing",143,Loyal customers,144.0,30.0,450.0
+168,181,21-30 years old,Female,West,Humanities,I am a Student,University Degree,"Cash,Credit Card,Debit Card,NETS Card",DBS/POSB,Yes,"restaurant,fffc,clothing,beverage",143,Loyal customers,135.0,30.0,560.0
+169,166,21-30 years old,Male,East,Finance,I am a Student,Diploma,"Cash,Debit Card","Citibank,DBS/POSB",Yes,"restaurant,fffc,grocery,clothing,beverage",221,Regulars,45.0,10.0,155.0
+170,167,21-30 years old,Female,North,Medical,"$20,001 - $44,999",University Degree,"Debit Card,NETS Card",OCBC,Yes,"restaurant,fffc,clothing,hba,beverage",122,Almost lost,89.0,10.0,370.0
+171,168,21-30 years old,Female,North-East,Technology,"$20,001 - $44,999",Diploma,Debit Card,"DBS/POSB,OCBC",Yes,"restaurant,fffc,grocery,hba,beverage",343,Loyal customers,27.0,30.0,390.0
+172,169,21-30 years old,Male,North,Engineering,"< $20,000",Diploma,Credit Card,DBS/POSB,Yes,"restaurant,fffc,grocery,clothing,beverage",111,Almost lost,201.0,4.0,181.0
+173,170,< 20 years old,Male,North,Engineering,I am a Student,A Levels,Debit Card,DBS/POSB,Yes,"restaurant,grocery,sports,clothing,hba",133,Almost lost,109.0,20.0,530.0
+174,171,> 50 years old,Male,North,Construction,"$60,000 - $89,999",Diploma,Cash,DBS/POSB,Yes,"fffc,grocery,household",323,Regulars,26.0,10.0,600.0
+175,172,21-30 years old,Male,North-East,Tourism/Hospitality,"$20,001 - $44,999",Diploma,Credit Card,DBS/POSB,Yes,"restaurant,electronic,clothing,beverage",424,Big spenders,19.0,10.0,950.0
+176,173,21-30 years old,Female,North-East,Events,I am a Student,Diploma,"Cash,NETS Card","DBS/POSB,OCBC",Yes,"fffc,grocery,hba,household,beverage",111,Almost lost,83.0,2.0,80.0
+177,174,21-30 years old,Male,Central/South,Technology,"< $20,000",A Levels,Cash,"DBS/POSB,Standard Chartered",Yes,"restaurant,fffc,grocery,clothing,hba",113,Almost lost,139.0,4.0,510.0
+178,175,> 50 years old,Female,North-East,Travel,"$60,000 - $89,999",Diploma,Credit Card,"Citibank,DBS/POSB,HSBC,American Express",Yes,"restaurant,grocery,clothing,hba,household",112,Almost lost,159.0,1.0,279.0
+179,176,> 50 years old,Male,North-East,Consulting,"> $120,000",Diploma,"Cash,Credit Card","Citibank,DBS/POSB,OCBC,HSBC,American Express",Yes,"restaurant,fffc,grocery,electronic,household",244,Big spenders,58.0,30.0,2300.0
+180,177,21-30 years old,Female,North-East,Finance,"$20,001 - $44,999",University Degree,Debit Card,OCBC,Yes,"restaurant,fffc,electronic,clothing,hba",121,Almost lost,244.0,10.0,100.0
+181,178,21-30 years old,Female,West,Social Sciences,I am a Student,A Levels,"Debit Card,NETS Card",DBS/POSB,Yes,"restaurant,fffc,grocery,clothing,hba",121,Almost lost,77.0,10.0,110.0
+182,179,> 50 years old,Male,Central/South,Business/HR,"$45,000 - $59,999",Masters Degree,Cash,OCBC,Yes,"fffc,grocery,beverage",131,Almost lost,83.0,20.0,210.0
+183,180,21-30 years old,Male,North-East,Technology,"< $20,000",A Levels,Debit Card,DBS/POSB,Yes,"restaurant,fffc,grocery,electronic,clothing",223,Regulars,42.0,10.0,550.0
+184,182,21-30 years old,Female,West,Law,I am a Student,A Levels,"Credit Card,Debit Card","OCBC,American Express,Standard Chartered",Yes,"restaurant,fffc,electronic,beverage",244,Big spenders,41.0,30.0,670.0
+185,183,21-30 years old,Male,West,Technology,I am a Student,A Levels,Cash,"DBS/POSB,OCBC",Yes,"restaurant,grocery,electronic,sports,clothing",111,Almost lost,205.0,4.0,112.0
+186,184,< 20 years old,Female,North-East,Technology,"< $20,000",A Levels,Credit Card,"Citibank,DBS/POSB,American Express,Standard Chartered",Yes,"restaurant,beverage",321,Regulars,21.0,10.0,67.0
+187,185,31-40 years old,Female,North-East,Services,"> $120,000",University Degree,Credit Card,"Citibank,DBS/POSB,HSBC,American Express",Yes,"restaurant,grocery,hba,household",444,Champions,19.0,30.0,2300.0
+188,186,> 50 years old,Female,Central/South,Finance,"$45,000 - $59,999",Diploma,Credit Card,Standard Chartered,Yes,"grocery,clothing,hba,household",244,Big spenders,71.0,30.0,650.0
+189,187,21-30 years old,Male,Central/South,Technology,"< $20,000",A Levels,Debit Card,DBS/POSB,Yes,"restaurant,electronic,clothing",241,Loyal customers,34.0,30.0,190.0
+190,188,21-30 years old,Male,East,Finance,I am a Student,A Levels,"Cash,Debit Card",DBS/POSB,Yes,"restaurant,fffc,beverage",113,Almost lost,110.0,4.0,539.0
+191,189,> 50 years old,Male,East,Technology,"> $120,000",A Levels,Credit Card,"Citibank,American Express",Yes,"restaurant,grocery,clothing",134,Big spenders,186.0,20.0,2400.0
+192,190,> 50 years old,Female,North,Tourism/Hospitality,"> $120,000",Masters Degree,"Cash,Credit Card,NETS Card","DBS/POSB,OCBC,HSBC,American Express",Yes,"grocery,clothing,hba,household",234,Big spenders,53.0,20.0,1650.0
+193,191,41-50 years old,Female,East,Tourism/Hospitality,"$20,001 - $44,999",Diploma,Credit Card,"DBS/POSB,Uob",Yes,"grocery,hba,household",224,Big spenders,69.0,10.0,1255.0
+194,192,> 50 years old,Female,North,Business/HR,"$20,001 - $44,999",Diploma,NETS Card,OCBC,Yes,"fffc,grocery,household",212,Regulars,50.0,2.0,350.0
+195,193,21-30 years old,Male,North,Engineering,I am a Student,A Levels,Credit Card,Uob,Yes,"restaurant,fffc,clothing",222,Regulars,30.0,10.0,300.0
+196,194,> 50 years old,Male,North-East,Security,"$20,001 - $44,999",Primary School,NETS Card,DBS/POSB,Yes,"fffc,household",213,Regulars,74.0,1.0,400.0
+197,195,> 50 years old,Male,North-East,Real Estate and Fengshui,"$45,000 - $59,999",Diploma,Cash,"DBS/POSB,Uob, Maybank",Yes,"fffc,grocery,clothing,household",112,Almost lost,245.0,1.0,350.0
+198,196,21-30 years old,Female,North,Media,"$60,000 - $89,999",Masters Degree,Credit Card,"DBS/POSB,OCBC,Uob",Yes,"grocery,electronic,household",132,Almost lost,110.0,20.0,350.0
+199,197,> 50 years old,Male,West,Oil and gas,"> $120,000",University Degree,"Cash,Credit Card",HSBC,Yes,"restaurant,grocery,household",434,Big spenders,19.0,20.0,1100.0
+200,198,21-30 years old,Female,North,Life Sciences,I am a Student,University Degree,Cash,DBS/POSB,No,"restaurant,grocery,clothing",111,Almost lost,126.0,2.0,170.0
+201,199,> 50 years old,Male,North,Business/HR,"$60,000 - $89,999",University Degree,"Cash,Credit Card",DBS/POSB,Yes,"fffc,grocery",412,Recent customers,15.0,2.0,320.0
+202,200,> 50 years old,Male,North-East,Publishing,"$90,000 - $120,000",University Degree,Credit Card,"OCBC,Uob",Yes,"fffc,grocery,household",233,Regulars,30.0,20.0,450.0
+203,201,> 50 years old,Female,North,Services,"$90,000 - $120,000",Diploma,Credit Card,"Citibank,DBS/POSB,OCBC,HSBC",Yes,"fffc,grocery,clothing",224,Big spenders,70.0,10.0,750.0
+204,202,21-30 years old,Male,North,Business/HR,I am a Student,Diploma,Debit Card,DBS/POSB,Yes,"restaurant,fffc,grocery",414,Big spenders,13.0,2.0,950.0
+205,203,21-30 years old,Female,North-East,Medical,I am a Student,A Levels,Credit Card,"DBS/POSB,OCBC",Yes,"restaurant,fffc,beverage",433,Recent customers,19.0,20.0,415.0
+206,204,21-30 years old,Male,East,Technology,"$20,001 - $44,999",University Degree,Debit Card,DBS/POSB,Yes,"restaurant,fffc,grocery",223,Regulars,40.0,10.0,400.0
+207,205,21-30 years old,Male,North-East,Business/HR,I am a Student,Diploma,Credit Card,"DBS/POSB,OCBC",Yes,"restaurant,grocery",422,Recent customers,15.0,10.0,300.0
+208,206,21-30 years old,Female,Central/South,Mathematics,I am a Student,A Levels,"Credit Card,Debit Card","Citibank,DBS/POSB,OCBC",Yes,"restaurant,clothing,hba",442,Loyal customers,19.0,30.0,340.0
+209,207,21-30 years old,Male,Central/South,Technology,"$45,000 - $59,999",University Degree,Debit Card,DBS/POSB,Yes,"restaurant,grocery",442,Loyal customers,11.0,30.0,300.0
+210,208,21-30 years old,Female,North-East,Business/HR,"$20,001 - $44,999",University Degree,Credit Card,Standard Chartered,Yes,"restaurant,fffc,beverage",441,Loyal customers,15.0,30.0,165.0
+211,209,21-30 years old,Female,North-East,Business/HR,I am a Student,Diploma,"Cash,Credit Card,Debit Card","DBS/POSB,OCBC",Yes,"fffc,grocery,hba",314,Big spenders,27.0,2.0,1300.0
+212,210,21-30 years old,Female,North-East,Technology,I am a Student,A Levels,Debit Card,DBS/POSB,Yes,"restaurant,fffc,grocery,electronic,beverage",334,Big spenders,28.0,20.0,800.0
+213,211,21-30 years old,Female,East,Medical,"$20,001 - $44,999",University Degree,Credit Card,DBS/POSB,Yes,"restaurant,clothing",341,Loyal customers,28.0,30.0,130.0
+214,212,21-30 years old,Male,East,Floral & Landscaping,"< $20,000",Diploma,Debit Card,DBS/POSB,Yes,"restaurant,fffc,beverage",444,Champions,15.0,30.0,900.0
+215,213,21-30 years old,Female,North,Engineering,I am a Student,A Levels,"Cash,Debit Card,Paylah/Grabpay","DBS/POSB,OCBC",Yes,"fffc,grocery,beverage",422,Recent customers,11.0,10.0,330.0
+216,214,21-30 years old,Female,North-East,Technology,I am a Student,A Levels,"Cash,Debit Card,NETS Card",DBS/POSB,Yes,"restaurant,fffc,grocery",111,Almost lost,80.0,4.0,80.0
+217,215,21-30 years old,Female,Central/South,Business/HR,I am a Student,University Degree,Debit Card,"Citibank,DBS/POSB",Yes,"restaurant,clothing,hba",211,Regulars,30.0,2.0,95.0
+218,216,21-30 years old,Male,North,Technology,"< $20,000",Diploma,Credit Card,DBS/POSB,Yes,"restaurant,fffc,grocery",421,Recent customers,13.0,10.0,200.0
+219,218,21-30 years old,Female,East,Wedding,"$20,001 - $44,999",O Levels,"Cash,Debit Card,NETS Card","DBS/POSB,OCBC,Standard Chartered",Yes,"clothing,hba,beverage",213,Regulars,72.0,2.0,450.0
+220,219,21-30 years old,Male,East,Services,"$20,001 - $44,999",O Levels,"Cash,Debit Card,NETS Card",Uob,Yes,"sports,clothing",141,Loyal customers,127.0,30.0,200.0
+221,220,> 50 years old,Female,Central/South,Technology,"> $120,000",University Degree,Credit Card,Uob,Yes,"restaurant,hba,household",244,Big spenders,73.0,30.0,1000.0
+222,221,21-30 years old,Female,West,Technology,I am a Student,Diploma,"Cash,Debit Card","DBS/POSB,OCBC,Standard Chartered",Yes,"restaurant,fffc,clothing",432,Recent customers,19.0,20.0,250.0
+223,222,21-30 years old,Female,West,Finance,"$20,001 - $44,999",University Degree,"Cash,Credit Card","Citibank,DBS/POSB,OCBC",Yes,"fffc,clothing,beverage",312,Regulars,27.0,4.0,250.0
+224,223,21-30 years old,Female,North-East,Technology,I am a Student,A Levels,"Cash,Debit Card","DBS/POSB,OCBC",Yes,"fffc,sports,beverage",431,Recent customers,19.0,20.0,180.0
+225,224,21-30 years old,Female,North,Services,"$20,001 - $44,999",University Degree,Debit Card,"DBS/POSB,OCBC,Standard Chartered",Yes,"restaurant,clothing,hba",244,Big spenders,40.0,30.0,1000.0
+226,225,> 50 years old,Female,North-East,Housewife,"< $20,000",O Levels,"Cash,Debit Card",DBS/POSB,Yes,"fffc,grocery,household",422,Recent customers,15.0,10.0,310.0
+227,226,31-40 years old,Male,Central/South,Engineering,"$45,000 - $59,999",A Levels,"Cash,Credit Card,Debit Card,NETS Card",DBS/POSB,Yes,"grocery,electronic,beverage",434,Big spenders,15.0,20.0,700.0
+228,227,> 50 years old,Male,North-East,Construction,"< $20,000",O Levels,Cash,DBS/POSB,No,"fffc,grocery,sports",111,Almost lost,186.0,0.0,90.0
+229,228,21-30 years old,Female,Central/South,Engineering,I am a Student,A Levels,"Cash,Debit Card,NETS Card",DBS/POSB,Yes,"fffc,grocery,household",444,Champions,9.0,30.0,1400.0
+230,229,21-30 years old,Female,North,Services,"$20,001 - $44,999",University Degree,"Cash,Credit Card,Debit Card,NETS Card","DBS/POSB,OCBC",Yes,"restaurant,grocery,sports",444,Champions,9.0,30.0,800.0
+231,230,31-40 years old,Female,Central/South,Business/HR,"$45,000 - $59,999",University Degree,"Cash,Credit Card,Debit Card,NETS Card","Citibank,DBS/POSB,American Express",Yes,"restaurant,clothing,hba",444,Champions,9.0,30.0,700.0
+232,231,> 50 years old,Male,North,Technology,"> $120,000",PhD,"Cash,Credit Card,Debit Card,NETS Card","Citibank,DBS/POSB,OCBC,American Express,Standard Chartered",Yes,"restaurant,clothing,household",142,Loyal customers,140.0,30.0,300.0
+233,232,41-50 years old,Female,Central/South,Business/HR,"$60,000 - $89,999",University Degree,"Cash,Credit Card,Debit Card,NETS Card","Citibank,DBS/POSB,OCBC,American Express",Yes,"restaurant,clothing,hba",333,Regulars,23.0,20.0,460.0
+234,233,> 50 years old,Male,North,Construction,"$90,000 - $120,000",University Degree,"Cash,Credit Card,Debit Card,NETS Card","Citibank,DBS/POSB,OCBC,American Express",Yes,"restaurant,electronic,sports",143,Loyal customers,103.0,30.0,450.0
+235,235,> 50 years old,Male,West,Sales,"$45,000 - $59,999",Diploma,"Cash,Credit Card,Debit Card,NETS Card","Citibank,DBS/POSB,OCBC,American Express",Yes,"fffc,electronic,sports",242,Loyal customers,38.0,30.0,350.0
+236,236,> 50 years old,Female,Central/South,Services,"< $20,000",O Levels,"Cash,Debit Card,NETS Card",DBS/POSB,Yes,"fffc,grocery,household",433,Recent customers,9.0,20.0,540.0
+237,237,41-50 years old,Male,East,Technology,"$45,000 - $59,999",University Degree,"Cash,Debit Card","DBS/POSB,OCBC",Yes,"fffc,household,beverage",331,Regulars,28.0,20.0,190.0
+238,238,31-40 years old,Male,East,Retail,"$20,001 - $44,999",Diploma,"Cash,Credit Card,Debit Card,NETS Card","DBS/POSB,OCBC",Yes,"fffc,grocery,beverage",423,Recent customers,17.0,10.0,410.0
+239,239,21-30 years old,Male,North-East,Technology,"< $20,000",Diploma,"Cash,Debit Card",DBS/POSB,Yes,"restaurant,fffc,electronic",321,Regulars,23.0,10.0,200.0
+240,240,21-30 years old,Female,North-East,Technology,I am a Student,A Levels,"Cash,Debit Card",HSBC,Yes,"restaurant,fffc,beverage",331,Regulars,26.0,20.0,180.0
+241,241,> 50 years old,Male,Central/South,Services,"$60,000 - $89,999",Diploma,"Debit Card,NETS Card",DBS/POSB,Yes,"restaurant,fffc,clothing",443,Loyal customers,15.0,30.0,520.0
+242,242,41-50 years old,Female,North-East,Finance,"$20,001 - $44,999",Diploma,Debit Card,DBS/POSB,Yes,"grocery,hba,beverage",342,Loyal customers,23.0,30.0,370.0
+243,243,21-30 years old,Male,North-East,Technology,I am a Student,Diploma,Credit Card,DBS/POSB,Yes,"restaurant,fffc,clothing",112,Almost lost,87.0,4.0,240.0
+244,244,21-30 years old,Female,North-East,Finance,"< $20,000",A Levels,Debit Card,"Citibank,DBS/POSB,OCBC,HSBC",Yes,"restaurant,grocery,clothing,hba",224,Big spenders,29.0,10.0,650.0
+245,245,41-50 years old,Female,West,Technology,"$60,000 - $89,999",Diploma,Cash,DBS/POSB,Yes,"fffc,grocery,household",333,Regulars,21.0,20.0,470.0
+246,246,> 50 years old,Male,Central/South,Finance,"> $120,000",Diploma,Credit Card,"DBS/POSB,OCBC",Yes,"restaurant,electronic,clothing,beverage",244,Big spenders,44.0,30.0,740.0
+247,247,> 50 years old,Male,North-East,Tourism/Hospitality,"$20,001 - $44,999",University Degree,"Cash,NETS Card",DBS/POSB,Yes,"fffc,grocery,household",243,Loyal customers,74.0,30.0,550.0
+248,248,21-30 years old,Female,West,Business/HR,I am a Student,A Levels,Cash,"DBS/POSB,OCBC",Yes,"restaurant,clothing,hba",432,Recent customers,17.0,20.0,350.0
