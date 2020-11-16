@@ -30,8 +30,8 @@ from functools import update_wrapper
 #initialise flask app
 # ms flask app running on http://127.0.0.1:5000/
 app = Flask(__name__)
-app.debug = True
 CORS(app)
+app.debug = True
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 
