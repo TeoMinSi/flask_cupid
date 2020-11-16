@@ -8,7 +8,7 @@ import math
 import nltk
 import os.path
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
-#nltk.download('vader_lexicon')
+nltk.download('vader_lexicon')
 
 from sqlalchemy import create_engine, types
 
