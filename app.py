@@ -46,7 +46,7 @@ engine = create_engine('postgres://kpbwxhyoldaojq:d02a03d9a54a2fc1556f8f17d52c77
 def after_request(response):
     response.headers.add('Access-Control-Allow-Origin', '*')
     response.headers.add("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT")
-    response.headers.add("Access-Control-Allow-Headers", "Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers, formdata")
+    response.headers.add("Access-Control-Allow-Headers", "*")
     return response
 
 @app.route('/')
