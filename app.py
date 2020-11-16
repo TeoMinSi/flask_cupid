@@ -12,6 +12,7 @@ import pandas as pd
 from sqlalchemy import create_engine, types
 import json
 import numpy as np
+import os
 
 
 #import all the local functions
@@ -41,11 +42,11 @@ db = SQLAlchemy(app)
 engine = create_engine('postgres://kpbwxhyoldaojq:d02a03d9a54a2fc1556f8f17d52c777469344766facda03a57b82201cfc4862d@ec2-54-84-98-18.compute-1.amazonaws.com:5432/dmnl5o500oko5') # enter your password and database names here
 
 
-# @app.after_request
-# def after_request(response):
-#     response.headers.add('Access-Control-Allow-Origin', '*')
-#     response.headers.add('Access-Control-Allow-Headers', 'Content-Type')
-#     return response
+@app.after_request
+def after_request(response):
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    response.headers.add('Access-Control-Allow-Headers', 'Content-Type')
+    return response
 
 @app.route('/')
 def index():
@@ -173,5 +174,5 @@ def formdata():
 
 
 if __name__ == '__main__': # if file is run as main program
-    app.run(debug=True)
-    # app.run(host="localhost", port=3000, debug=True)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
