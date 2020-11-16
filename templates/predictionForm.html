@@ -775,7 +775,7 @@ reloadPage();
                     url:Url,
                     type:"GET",
                     data:data,
-                    headers: { 'Access-Control-Allow-Origin':'*' },
+                    headers: { 'Access-Control-Allow-Origin':'*' , 'Access-Control-Allow-Methods':"GET,HEAD,OPTIONS,POST,PUT", "Access-Control-Allow-Headers": 'Content-Type,Authorization'},
                     complete: function(){
                     alert("Form submitted!")
                     },

@@ -42,25 +42,13 @@ db = SQLAlchemy(app)
 engine = create_engine('postgres://kpbwxhyoldaojq:d02a03d9a54a2fc1556f8f17d52c777469344766facda03a57b82201cfc4862d@ec2-54-84-98-18.compute-1.amazonaws.com:5432/dmnl5o500oko5') # enter your password and database names here
 
 
-# @app.after_request
-# def after_request(response):
-#     response.headers.add('Access-Control-Allow-Origin', '*')
-#     response.headers.add("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT")
-#     response.headers.add("Access-Control-Allow-Headers", 'Content-Type,Authorization')
-#     return response
-
 @app.after_request
-def add_cors(resp):
-    """ Ensure all responses have the CORS headers. This ensures any failures are also accessible
-        by the client. """
-    resp.headers['Access-Control-Allow-Origin'] = flask.request.headers.get('*')
-    resp.headers['Access-Control-Allow-Methods'] = 'POST, OPTIONS, GET'
-    resp.headers['Access-Control-Allow-Headers'] = flask.request.headers.get( 
-        'Access-Control-Request-Headers', 'Authorization','Content-Type' )
-    # set low for debugging
-    if app.debug:
-        resp.headers['Access-Control-Max-Age'] = '1'
-    return resp
+def after_request(response):
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    response.headers.add("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT")
+    response.headers.add("Access-Control-Allow-Headers", 'Content-Type,Authorization')
+    return response
+
 
 @app.route('/')
 def index():
