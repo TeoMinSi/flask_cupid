@@ -139,6 +139,12 @@ def formdata():
     industry = str(request.args.get('industry'))
     annual_income = str(request.args.get('income'))
     education = str(request.args.get('education'))
+    print(age)
+    print(gender)
+    print(region)
+    print(industry)
+    print(annual_income)
+    print(education)
 
 
     df = pd.read_sql_query('SELECT * FROM clean_raw_data;',engine)
