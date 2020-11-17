@@ -335,7 +335,67 @@
               <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body">
 
-                  
+                  <form action = "https://flaskcupid.herokuapp.com/formdata" method="post">
+                    <p>Age Group</p>
+                    <input type="radio" name="age" value="< 20 years old">
+                    <input type="radio" name="age" value="21-30 years old">
+                    <input type="radio" name="age" value="31-40 years old">
+                    <input type="radio" name="age" value="41-50 years old">
+                    <input type="radio" name="age" value="> 50 years old">
+                    <p>Gender</p>
+                    <input type="radio" name="gender" value="Male">
+                    <input type="radio" name="gender" value="Female">
+                    <p>Region</p>
+                    <input type="radio" name="region" value="Central/South">
+                    <input type="radio" name="region" value="East">
+                    <input type="radio" name="region" value="North">
+                    <input type="radio" name="region" value="North-East">
+                    <input type="radio" name="region" value="West">
+                    <p>Annual Income</p>
+                    <input type="radio" name="income" value="I am a Student">
+                    <input type="radio" name="income" value="< $20,000">
+                    <input type="radio" name="income" value="$20,001 - $44,999">
+                    <input type="radio" name="income" value="$45,000 - $59,999">
+                    <input type="radio" name="income" value="$60,000 - $89,999">
+                    <input type="radio" name="income" value="$90,000 - $120,000">
+                    <input type="radio" name="income" value="> $120,000">
+                    <p>Industry</p>
+                    <input type="radio" name="industry" value='Business/HR'>
+                    <input type="radio" name="industry" value='Construction'>
+                    <input type="radio" name="industry" value='Consulting'>
+                    <input type="radio" name="industry" value='Engineering'>
+                    <input type="radio" name="industry" value='Events'>
+                    <input type="radio" name="industry" value='Finance'>
+                    <input type="radio" name="industry" value='Floral & Landscaping'>
+                    <input type="radio" name="industry" value='Housewife'>
+                    <input type="radio" name="industry" value='Humanities'>
+                    <input type="radio" name="industry" value='Law'>
+                    <input type="radio" name="industry" value='Life Sciences'>
+                    <input type="radio" name="industry" value='Mathematics'>
+                    <input type="radio" name="industry" value='Media'>
+                    <input type="radio" name="industry" value='Medical'>
+                    <input type="radio" name="industry" value='Oil and gas'>
+                    <input type="radio" name="industry" value='Publishing'>
+                    <input type="radio" name="industry" value='Real Estate and Fengshui'>
+                    <input type="radio" name="industry" value='Retail'>
+                    <input type="radio" name="industry" value='Sales'>
+                    <input type="radio" name="industry" value='Security'>
+                    <input type="radio" name="industry" value='Services'>
+                    <input type="radio" name="industry" value='Technology'>
+                    <input type="radio" name="industry" value='Tourism/Hospitality'>
+                    <input type="radio" name="industry" value='Travel'>
+                    <input type="radio" name="industry" value='Wedding'>
+                    <p>Education</p>
+                    <input type="radio" name="education" value='Primary School'>
+                    <input type="radio" name="education" value='O Levels'>
+                    <input type="radio" name="education" value='A Levels'>
+                    <input type="radio" name="education" value='Diploma'>
+                    <input type="radio" name="education" value='University Degree'>
+                    <input type="radio" name="education" value='Masters Degree'>
+                    <input type="radio" name="education" value='PhD'>
+                    <input type="submit" id="uploadBtn" class="btn btn-block btn-success" style="width:10%; display:inline-block; margin-bottom:10px;" value="Upload">
+                  </form>
+
 
                   <div class="form-group">
                     <label>Age</label>
