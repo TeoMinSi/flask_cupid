@@ -131,7 +131,7 @@ def mba():
     return ('success',201)
 
 #this function is for the form data (Machine learning algo)
-@app.route('/formdata', methods=['GET','POST']) # binds URL to view function
+@app.route('/formdata', methods=['POST']) # binds URL to view function
 def formdata():
     age = str(request.args.get('age'))
     gender = str(request.args.get('gender'))
