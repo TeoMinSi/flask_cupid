@@ -335,6 +335,8 @@
               <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body">
 
+                  
+
                   <div class="form-group">
                     <label>Age</label>
                     <select id="ddlAgeGroup" class="form-control" style="width: 100%;" name="ageGroup">
@@ -773,9 +775,9 @@ reloadPage();
 
                 $.ajax({
                     url:Url,
-                    type:"GET",
+                    type:"POST",
                     data:data,
-                    headers: { 'Access-Control-Allow-Origin':'*' , 'Access-Control-Allow-Methods':"GET,HEAD,OPTIONS,POST,PUT", "Access-Control-Allow-Headers": 'Content-Type,Authorization'},
+                    headers: { 'Access-Control-Allow-Origin':'*' },
                     complete: function(){
                     alert("Form submitted!")
                     },
