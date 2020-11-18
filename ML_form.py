@@ -45,7 +45,7 @@ def mba_recommendation(mba_db, score_db, pre_cat):
 def convert_dict(form_dict):
     #print(form_dict)
 
-    gender, age, annual_income, education, region, industry = itemgetter('gender', 'age', 'annual_income', 'education', 'region','industry')(form_dict)
+    gender, age, annual_income, education, region, industry = itemgetter('gender', 'age', 'income', 'education', 'region','industry')(form_dict)
 
     #list to split input
     age_list=['< 20 years old', '21-30 years old',  '31-40 years old', '41-50 years old', '> 50 years old']
