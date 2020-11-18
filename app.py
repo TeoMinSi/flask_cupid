@@ -133,18 +133,20 @@ def mba():
 #this function is for the form data (Machine learning algo)
 @app.route('/formdata', methods=['POST']) # binds URL to view function
 def formdata():
-    age = str(request.args.get('age'))
-    gender = str(request.args.get('gender'))
-    region = str(request.args.get('region'))
-    industry = str(request.args.get('industry'))
-    annual_income = str(request.args.get('income'))
-    education = str(request.args.get('education'))
-    print(age)
-    print(gender)
-    print(region)
-    print(industry)
-    print(annual_income)
-    print(education)
+    # age = str(request.args.get('age'))
+    # gender = str(request.args.get('gender'))
+    # region = str(request.args.get('region'))
+    # industry = str(request.args.get('industry'))
+    # annual_income = str(request.args.get('income'))
+    # education = str(request.args.get('education'))
+    form_dict = request.json["data"]
+    print(form_dict)
+    # print(age)
+    # print(gender)
+    # print(region)
+    # print(industry)
+    # print(annual_income)
+    # print(education)
 
 
     df = pd.read_sql_query('SELECT * FROM clean_raw_data;',engine)
@@ -152,12 +154,12 @@ def formdata():
     score_db = pd.read_sql_query('SELECT * FROM merchant_score;',engine)
     cust_db = pd.read_sql_query('SELECT * FROM customer_datatable;',engine)
     
-    form_dict = {'gender':gender,
-             'age': age,
-             'annual_income': annual_income,
-             'education': education,
-             'region': region,
-             'industry': industry}
+    # form_dict = {'gender':gender,
+    #          'age': age,
+    #          'annual_income': annual_income,
+    #          'education': education,
+    #          'region': region,
+    #          'industry': industry}
 
     form = ML_form.convert_dict(form_dict)
     prediction_list = ML_form.cat_prediction(df, form)
