@@ -139,7 +139,7 @@ def formdata():
     # industry = str(request.args.get('industry'))
     # annual_income = str(request.args.get('income'))
     # education = str(request.args.get('education'))
-    form_dict = request.json["data"]
+    form_dict = request.json
     print(form_dict)
     # print(age)
     # print(gender)
