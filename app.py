@@ -92,7 +92,7 @@ def uploaddata():
         print("extracting and cleaning merchants data table")
         cleaned_df = pd.read_sql_query('select * from clean_raw_data',con=engine)
         merchant_df = merchant_db.merchant_cleaning(cleaned_df)
-        merchant_df[merchant_df.Merchant != 'None']
+        merchant_df[merchant_df.MerchantID != 0]
         merchant_df.to_sql('merchant_frequency',con=engine,index=False,if_exists='replace')
         print("successfully uploaded merchants_frequency")
         
